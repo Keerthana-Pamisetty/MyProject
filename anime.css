@@ -1,0 +1,38 @@
+.box {
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0px;
+    padding: 10px;
+    border-color: black;
+    border-style: dashed;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    
+
+
+    transition-property: width,height, background-color;
+    transition-duration: 1s,5s,1s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+    transition:all is ease-in-out
+    
+    
+}
+
+.box:hover {
+    width: 400px;
+    background-color:blue;
+    height: 600px;
+    margin: 20px;
+    padding: 50px;
+    border-color:chartreuse;
+    top: 100px;
+    ledt: 100px;
+  
+
+
+
+}

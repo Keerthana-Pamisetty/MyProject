@@ -1,0 +1,21 @@
+.container {
+    background-color: grey;
+    padding:10px;
+    display: flex;
+    
+    flex-flow: row wrap;
+    height: 200px;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content:flex-end;
+}
+
+.item {
+    background-color: tomato;
+    
+    height: 50px;
+    padding: 5px;
+    margin:5px;
+    color:black;
+}
